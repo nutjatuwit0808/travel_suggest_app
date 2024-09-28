@@ -1,0 +1,35 @@
+.appContainer {
+    height: 100dvh;
+    margin-top: 25px;
+
+  .tripHeader {
+    height: 10dvh;
+    max-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+
+    h1 {
+      color: #44B1D5;
+    }
+
+    .searchTrip {
+        height: 40px;
+        width: 50dvw;
+        max-width: 400px;
+        border: none;
+        border-bottom: 1px solid #E1E4E8;
+        text-align: center;
+    }
+  }
+  .tripBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    gap: 50px;
+  }
+}
